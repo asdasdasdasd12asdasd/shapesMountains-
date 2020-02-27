@@ -1,0 +1,102 @@
+/*
+Resources:
+
+	https://bennettfeely.com/clippy/
+	https://cssgradient.io/
+
+*/
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#container{
+	width: 100%;
+	height: 583px;
+background: linear-gradient(90deg, rgba(143,91,133,1) 0%, rgba(74,13,62,1) 48%, rgba(106,22,90,1) 100%); 
+
+}
+
+
+#positionText{
+		position: absolute;
+	  	bottom:50%;
+	  	left: 30%;
+}
+
+/*SHAPES*/
+#triangle1{
+		position: absolute;
+	  	bottom:0;
+	  	left: 0;
+
+		width: 40%;
+		height: 100px;
+
+		-webkit-clip-path:polygon(0 0, 100% 100%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+		clip-path: polygon(0 0, 100% 100%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+		background-color: #fff;
+}
+
+#triangle2{
+		position: absolute;
+	  	bottom:0;
+	  	left: 0;
+
+		width: 75%;
+		height: 250px;
+
+		-webkit-clip-path:polygon(100% 0, 100% 100%, 100% 100%, 50% 100%, 0 100%, 49% 49%);
+		clip-path: polygon(100% 0, 100% 100%, 100% 100%, 50% 100%, 0 100%, 49% 49%);
+		background-color: #fff;
+}
+
+
+#triangle3{
+		position: absolute;
+	  	bottom:0;
+	  	left: 75%;
+
+		width: 25%;
+		height: 250px;
+
+		-webkit-clip-path:polygon(0 0, 100% 100%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+		clip-path: polygon(0 0, 100% 100%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+		background-color: #fff;
+}
+
+
+#triangle4{
+		position: absolute;
+	  	bottom:0;
+	  	left: 75%;
+
+		width: 25%;
+		height: 250px;
+
+		-webkit-clip-path:polygon(86% 9%, 100% 5%, 100% 100%, 50% 100%, 0 100%, 0 0);
+		clip-path: polygon(86% 9%, 100% 5%, 100% 100%, 50% 100%, 0 100%, 0 0);
+		background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
